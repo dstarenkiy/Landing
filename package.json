@@ -13,12 +13,11 @@
   "author": "dstarenkiy",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^7.2.5",
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.1.0",
     "gulp-clean-css": "^3.9.2",
     "gulp-cssbeautify": "^1.0.0",
+    "gulp-cssnext": "^1.0.1",
     "gulp-imagemin": "^4.1.0",
     "gulp-minify-css": "^1.2.4",
     "gulp-postcss": "^7.0.1",
@@ -28,7 +27,9 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^5.0.0",
-    "imagemin-pngquant": "^5.0.1"
+    "imagemin-pngquant": "^5.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-short": "^4.1.0"
   },
   "dependencies": {}
 }
