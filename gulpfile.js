@@ -30,7 +30,7 @@ gulp.task('autoprefixer', function () {
     var autoprefixer = require('autoprefixer');
     return gulp.src('./css/*.css')
     .pipe(sourcemaps.init())
-    .pipe(postcss([ autoprefixer() ]))
+    .pipe(postcss([ autoprefixer({browsers: 'last 4 versions'}) ]))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('./css'));
 });

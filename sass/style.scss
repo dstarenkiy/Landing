@@ -389,11 +389,17 @@ footer {
 	}
 	.display-flexspace {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 	}
 	.display-flexportfolio {
 		display: flex;
 		justify-content: space-between;
+	}
+	.counter__art {
+		padding: 0 30px;
+	}
+	.team__art {
+		width: 25%;
 	}
 	.row__txt {
 		color: $color_1;
@@ -446,6 +452,9 @@ footer {
 			}
 		}
 	}
+	.team__art {
+		width: 25%;
+	}
 	.kol-block {
 		position: absolute;
 		display: flex;
@@ -518,7 +527,7 @@ footer {
 		}
 	}
 }
-@media only screen and (max-width:992px) {
+@media (min-width:769px) and (max-width:992px) {
 	.container {
 		width: 700px;
 		margin-left: auto;
@@ -546,12 +555,24 @@ footer {
 	}
 	.display-flexspace {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 	}
 	.display-flexportfolio {
 		display: flex;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		width: 100%;
+		overflow: hidden;
+	}
+	.portfolio__flex {
+		flex-basis: 20px;
+		flex: auto;
+	}
+	.counter__art {
+		padding: 0 30px;
+	}
+	.team__art {
+		width: 25%;
 	}
 	.row__txt {
 		color: $color_1;
@@ -673,7 +694,7 @@ footer {
 		}
 	}
 }
-@media only screen and (max-width:768px) {
+@media (min-width:200px) and (max-width:768px) {
 	.container {
 		width: 260px;
 		margin-left: auto;
@@ -704,12 +725,20 @@ footer {
 	}
 	.display-flexspace {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: center;
 		flex-direction: column;
 	}
 	.display-flexportfolio {
 		display: flex;
 		justify-content: space-between;
+		flex-wrap: wrap;
+		-webkit-box-orient: vertical;
+	}	
+	.counter__art {
+		padding: 0 30px;
+	}
+	.team__art {
+		width: 25%;
 	}
 	.row__txt {
 		color: $color_1;
