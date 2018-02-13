@@ -14,7 +14,6 @@ body {
 	line-height: 20px;
 	color: $color_1;
 	font-weight: 400;
-	text-align:center;
 }
 a {
 	text-decoration: none;
@@ -253,6 +252,9 @@ header {
 	text-align: center;
 	padding-bottom: 10px;
 	font-size: 14px;
+}
+.counter__art {
+	padding: 0 20px;
 }
 .testimonilas {
 	text-align: center;
