@@ -14,8 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.23.6",
-    "gulp": "^3.9.1",
+    "gulp": "github:gulpjs/gulp#4.0",
     "gulp-clean-css": "^3.9.2",
+    "gulp-cli": "^2.0.1",
     "gulp-connect-php": "^1.0.1",
     "gulp-cssbeautify": "^1.0.0",
     "gulp-cssnext": "^1.0.1",

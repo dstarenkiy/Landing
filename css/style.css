@@ -184,7 +184,6 @@ header {
   opacity: 0;
   padding-top: 80px;
   -webkit-transition: all 0.5s;
-  -o-transition: all 0.5s;
   transition: all 0.5s;
   cursor: pointer;
   -webkit-transition: visibility opacity 0.2s; }
@@ -820,3 +819,5 @@ footer a {
     display: block;
     color: #fff;
     text-align: center; } }
+
+/*# sourceMappingURL=style.css.map */
