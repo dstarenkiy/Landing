@@ -1,0 +1,428 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		title
+		meta(name='viewport', content='width=device-width initial-scale=1.0')
+		link(href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700', rel='stylesheet')
+		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='css/style.css')
+		link(rel='stylesheet', type='text/css', href='css/reset.css')
+	body
+		header
+			.container
+				.row.display-flex
+					.menu
+						button.menu__button
+							a(href='#')
+								i.fa.fa-bars.fa-lg(aria-hidden='true')
+					.logo
+						a(href='#')
+							img(src='images/logo.png', alt='')
+					nav
+						ul.social
+							li.social__li
+								a(href='#')
+									i.fa.fa-facebook(aria-hidden='true')
+							li.social__li
+								a(href='#')
+									i.fa.fa-twitter(aria-hidden='true')
+							li.social__li
+								a(href='#')
+									i.fa.fa-google-plus(aria-hidden='true')
+							li.social__li
+								a(href='#')
+									i.fa.fa-pinterest(aria-hidden='true')
+		.h-bottom
+			.container
+				.row
+					h1.h-bottom__h1 Inspire your inspiration
+					p.h-bottom__p
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						br
+						|  Praesent vitae eros eget tellus tristique bibendum. Donec 
+						br
+						| rutrum sed sem quis venenatis.
+					a.h-bottom__a(href='#') GET START
+					a.h-bottom__ai(href='#')
+						i.fa.fa-long-arrow-down(aria-hidden='true')
+		.featured-grid
+			.container
+				.row
+					h2.row__h2 Tinyone features
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.row.display-flex
+					.featured-grid__block
+						.featured-grid__block-icon
+							i.fa.fa-tablet(aria-hidden='true')
+						.featured-grid__block-text
+							h3.featured-grid__h3 Fully Responsive
+							p.featured-grid__p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+					.featured-grid__block
+						.featured-grid__block-icon
+							i.fa.fa-comment-o(aria-hidden='true')
+						.featured-grid__block-text
+							h3.featured-grid__h3 Fully Layered PSD
+							p.featured-grid__p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+					.featured-grid__block
+						.featured-grid__block-icon
+							i.fa.fa-folder-o(aria-hidden='true')
+						.featured-grid__block-text
+							h3.featured-grid__h3 Font Awesome Icons
+							p.featured-grid__p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+				.row.display-flex
+					.featured-grid__block
+						.featured-grid__block-icon
+							i.fa.fa-envelope-o(aria-hidden='true')
+						.featured-grid__block-text
+							h3.featured-grid__h3 HTML3 & CSS3 
+							p.featured-grid__p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+					.featured-grid__block
+						.featured-grid__block-icon
+							i.fa.fa-code(aria-hidden='true')
+						.featured-grid__block-text
+							h3.featured-grid__h3 Email Template
+							p.featured-grid__p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+					.featured-grid__block
+						.featured-grid__block-icon
+							i.fa.fa-bookmark-o(aria-hidden='true')
+						.featured-grid__block-text
+							h3.featured-grid__h3 Free to download
+							p.featured-grid__p
+								| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum.
+		.price
+			.container
+				.row
+					h2.row__h2 Pricing And Free Trial
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.display-flexspace
+					.price-block
+						i.price-block__i.fa.fa-tablet(aria-hidden='true')
+						h3.price-block__h3 Basic
+						p.price-block__p Lorem ipsum dolor sit amet,  consectetur adipiscing elit
+						h4.price-block__h4 FREE
+						span.price-block__span
+						p.price-block__p Free forever
+						a.price-block__a(href='#') GET FREE NOW
+					.price-block
+						i.price-block__i.fa.fa-laptop(aria-hidden='true')
+						h3.price-block__h3 Standard
+						p.price-block__p Lorem ipsum dolor sit amet,  consectetur adipiscing elit
+						h4.price-block__h4 $99
+						span.price-block__span
+						p.price-block__p month
+						a.price-block__a(href='#') UPGRADE
+					.price-block
+						i.price-block__i.fa.fa-desktop(aria-hidden='true')
+						h3.price-block__h3 Enterprise
+						p.price-block__p Lorem ipsum dolor sit amet,  consectetur adipiscing elit
+						h4.price-block__h4 $199
+						span.price-block__span
+						p.price-block__p month
+						a.price-block__a(href='#') LEARN MORE
+		.portfolio-grid
+			.container
+				.row
+					h2.row__h2 Our works
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.row.display-flexportfolio
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock7.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 Fully Responsive
+						p.portfolio-grid__p Design / Branding
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock1.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 Font Awesome Icons
+						p.portfolio-grid__p Design / Branding
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock2.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 HTML3 & CSS3 
+						p.portfolio-grid__p App design / development
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock3.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 Various Layouts
+						p.portfolio-grid__p Branding
+				.row.display-flexportfolio
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock4.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 Fully Responsive
+						p.portfolio-grid__p Design / Branding
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock5.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 Font Awesome Icons
+						p.portfolio-grid__p Design / Branding
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock6.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 HTML3 & CSS3 
+						p.portfolio-grid__p App design / development
+					article.portfolio__flex
+						.image-block
+							.image-block__img
+								img(src='images/imgblock7.jpg', alt='')
+							.kol-block
+								.kol-block__count
+									i.fa.fa-eye(aria-hidden='true')
+									|  279
+								.kol-block__date
+									| 07/03/14 
+									i.fa.fa-clock-o(aria-hidden='true')
+							.descript-image
+								i.fa.fa-plus-circle(aria-hidden='true')
+						h3.portfolio-grid__h3 Various Layouts
+						p.portfolio-grid__p Branding
+		.team
+			.container
+				.row
+					h2.row__h2 Our team
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.row.display-flex
+					article.team__art
+						img(src='images/team1.png', alt='')
+						h3.team__h3 John Doe
+						p.team__p UI Designer
+						p.team__span Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						a.team__a(href='#')
+							i.fa.fa-facebook(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-twitter(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-linkedin(aria-hidden='true')
+					article.team__art
+						img(src='images/team2.png', alt='')
+						h3.team__h3 John Doe
+						p.team__p UI Designer
+						p.team__span Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						a.team__a(href='#')
+							i.fa.fa-facebook(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-twitter(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-linkedin(aria-hidden='true')
+					article.team__art
+						img(src='images/team3.png', alt='')
+						h3.team__h3 John Doe
+						p.team__p UI Designer
+						p.team__span Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						a.team__a(href='#')
+							i.fa.fa-facebook(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-twitter(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-linkedin(aria-hidden='true')
+					article.team__art
+						img(src='images/team4.png', alt='')
+						h3.team__h3 John Doe
+						p.team__p UI Designer
+						p.team__span Lorem ipsum dolor sit amet, consectetur adipiscing elit
+						a.team__a(href='#')
+							i.fa.fa-facebook(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-twitter(aria-hidden='true')
+						a.team__a(href='#')
+							i.fa.fa-linkedin(aria-hidden='true')
+		.counter
+			.container
+				.row
+					h2.row__h2 Stats & Testimonial
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.display-flexspace
+					article.counter__art
+						i.counter__i.fa.fa-puzzle-piece(aria-hidden='true')
+						h3.counter__h3 20
+						p.counter__p products
+					article.counter__art
+						i.counter__i.fa.fa-cloud-download(aria-hidden='true')
+						h3.counter__h3 120,000
+						p.counter__p Downloads
+					article.counter__art
+						i.counter__i.fa.fa-users(aria-hidden='true')
+						h3.counter__h3 1200
+						p.counter__p Customers
+					article.counter__art
+						i.counter__i.fa.fa-thumbs-up(aria-hidden='true')
+						h3.counter__h3 900
+						p.counter__p Likes
+		.testimonilas
+			.container
+				.row
+					img(src='images/testi.png', alt='')
+					h3.testimonilas__h3 John Doe
+					span.testimonilas__span From Wỏdpress
+					i.fa.fa-quote-left.testimonials__left(aria-hidden='true')
+					p.testimonilas__p
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						br
+						|  Praesent vitae eros eget tellus tristique bibendum. Donec
+						br
+						|  rutrum sed sem quis venenatis.
+					i.fa.fa-quote-right.testimonials__right(aria-hidden='true')
+		.contact
+			.container
+				.row
+					h2.row__h2 Keep in touch with us
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.display-flexspace
+					article
+						i.contact__i.fa.fa-map-marker(aria-hidden='true')
+						h3.contact__h3 Address
+						span.contact__span
+							| 66, Dang Van ngu, Dong Da, 
+							br
+							|  Ha noi, Vietnam
+					article
+						i.contact__i.fa.fa-envelope(aria-hidden='true')
+						h3.contact__h3 E-mail
+						span.contact__span contact@halovietnam.com
+					article
+						i.contact__i.fa.fa-phone-square(aria-hidden='true')
+						h3.contact__h3 Phone
+						span.contact__span +844 1234 56789
+				.row
+					form.contact-form
+						input.contact-form__input(type='text', placeholder='Email')
+						input.contact-form__input(type='text', placeholder='Full name')
+						textarea.contact-form__textarea(placeholder='Message')
+						button.contact-form__button Send Message
+		footer.footer-style
+			.container
+				.row
+					h2.row__f-h2 Sign up for our newsletter
+					p.row__txt
+						| Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus
+						br
+						|  tristique bibendum. Donec rutrum sed sem quis venenatis.
+				.row
+					.footer-form
+						input.footer-form__input(type='text', placeholder='Enter your email to update')
+						button.footer-form__button SUBMIT
+				.row.display-flex
+					.row__address
+						address
+							| HALOVIETNAM LTD 
+							br
+							|                         66, Dang Van ngu, Dong Da
+							br
+							|                         Hanoi, Vietnam
+							br
+							|                         contact@halovietnam.com
+							br
+							|                         +844 35149182
+					.row__block
+						.row.display-flex
+							.row__width
+								a(href='#') Examples
+								a(href='#') Shop
+								a(href='#') License
+							.row__width
+								a(href='#') Contact
+								a(href='#') About
+								a(href='#') Privacy
+								a(href='#') Terms
+							.row__width
+								a(href='#') Download
+								a(href='#') Support
+								a(href='#') Documents
+							.row__width
+								a(href='#') Media
+								a(href='#') Blog
+								a(href='#') Forums
