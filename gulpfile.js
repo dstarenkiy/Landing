@@ -8,7 +8,7 @@ var gulp = require('gulp'),
         browserSync.init({
             server: {
                 baseDir: './build'
-            }            
+            }          
         });
         browserSync.watch('build', browserSync.reload)
     });
