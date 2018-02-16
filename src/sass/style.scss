@@ -1,30 +1,9 @@
-@import 'pm.scss';
-@import 'reset.scss';
-@import 'screen.scss';
-body {
-	font-family: $font_family_1;
-	font-size: 16px;
-	line-height: 20px;
-	color: $color_1;
-	font-weight: 400;
-}
-a {
-	text-decoration: none;
-	color: $color_2;
-	&:active {
-		color: $color_2;
-	}
-}
-header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	z-index: 100;
-	width: 100%;
-	top: 60px;
-}
+@import 'pm';
+@import 'reset';
+@import 'screen';
+@import 'main';
 .social__li {
-	font-size: 20px;
+	font-size: $fs_2;
 	line-height: 30px;
 	color: $color_3;
 	padding: 0 10px;
@@ -35,52 +14,48 @@ header {
 	color: $color_3;
 	outline: 0;
 }
-.row {
-	margin-left: -15px;
-	margin-right: -15px;
-}
 .row__h1 {
-	font-size: 48px;
+	font-size: $fs_3;
 	line-height: 60px;
 	font-weight: 900;
 	color: $color_4;
 }
 .row__p {
 	color: $color_4;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: $fs_2;
+	line-height: $fs_4;
 	margin: 20px 0 40px;
 }
 .row__ai {
 	color: $color_5;
-	font-size: 34px;
+	font-size: $fs_5;
 }
 .row__h2 {
 	font-weight: 700;
-	font-size: 32px;
+	font-size: $fs_6;
 	color: $color_2;
-	line-height: 34px;
+	line-height: $fs_5;
 	text-align: center;
 }
 .row__f-h2 {
 	font-weight: 700;
-	font-size: 32px;
+	font-size: $fs_6;
 	color: $color_6;
-	line-height: 34px;
+	line-height: $fs_5;
 	text-align: center;
 }
 .featured-grid {
 	padding: 110px 0;
 	i {
-		font-size: 50px;
+		font-size: $fs_7;
 		text-align: center;
 		display: block;
 		color: $color_2;
 	}
 }
 .featured-grid__h3 {
-	font-size: 22px;
-	line-height: 24px;
+	font-size: $fs_8;
+	line-height: $fs_4;
 	font-weight: 700;
 	color: $color_2;
 }
@@ -93,13 +68,13 @@ header {
 }
 .featured-grid__p {
 	padding: 13px 0 80px;
-	line-height: 20px;
+	line-height: $fs_2;
 }
 .price {
 	text-align: center;
 }
 .price-block__i {
-	font-size: 48px;
+	font-size: $fs_3;
 	color: $color_2;
 	height: 100px;
 	width: 100px;
@@ -108,8 +83,8 @@ header {
 	background: #ebebeb;
 }
 .price-block__h3 {
-	font-size: 24px;
-	line-height: 24px;
+	font-size: $fs_4;
+	line-height: $fs_4;
 	font-weight: 700;
 	color: $color_2;
 	margin: 22px 0 15px;
@@ -117,16 +92,16 @@ header {
 .price-block__p {
 	color: $color_1;
 	padding: 0 36px 36px 36px;
-	font-size: 14px;
+	font-size: $fs_1;
 }
 .price-block__h4 {
-	font-size: 32px;
-	line-height: 24px;
+	font-size: $fs_6;
+	line-height: $fs_4;
 	font-weight: 700;
 	color: $color_2;
 }
 .price-block__span {
-	width: 50px;
+	width: $fs_10;
 	height: 2px;
 	background: #010101;
 	display: inline-flex;
@@ -143,17 +118,17 @@ header {
 }
 .portfolio-grid {
 	i {
-		font-size: 20px;
+		font-size: $fs_2;
 		text-align: center;
 		color: $color_6;
 		padding: 0 5px;
 	}
 }
 .portfolio__h3 {
-	font-size: 22px;
+	font-size: $fs_8;
 	font-weight: 700;
 	color: $color_2;
-	line-height: 24px;
+	line-height: $fs_4;
 	text-align: center;
 	margin-top: 17px;
 }
@@ -164,13 +139,13 @@ header {
 }
 .kol-block__count {
 	width: 50%;
-	font-size: 14px;
+	font-size: $fs_1;
 	color: $color_6;
 }
 .kol-block__date {
 	width: 50%;
 	text-align: right;
-	font-size: 14px;
+	font-size: $fs_1;
 	color: $color_6;
 }
 .descript-image {
@@ -183,7 +158,7 @@ header {
 	color: $color_6;
 	width: 100%;
 	height: auto;
-	font-size: 18px;
+	font-size: $fs_9;
 	font-weight: 400;
 	text-align: center;
 	visibility: hidden;
@@ -193,7 +168,7 @@ header {
 	cursor: pointer;
 	-webkit-transition: visibility opacity 0.2s;
 	i {
-		font-size: 50px;
+		font-size: $fs_10;
 	}
 }
 .team {
@@ -201,14 +176,14 @@ header {
 	text-align: center;
 }
 .team__span {
-	line-height: 18px;
+	line-height: $fs_9;
 	color: $color_7;
 	margin-bottom: 10px;
 }
 .team__h3 {
-	font-size: 22px;
+	font-size: $fs_8;
 	color: $color_2;
-	line-height: 24px;
+	line-height: $fs_4;
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 5px;
@@ -230,22 +205,22 @@ header {
 	margin-right: 35px;
 }
 .counter__i {
-	font-size: 50px;
+	font-size: $fs_10;
 	color: $color_8;
 	display: block;
 }
 .counter__h3 {
-	font-size: 24px;
+	font-size: $fs_4;
 	color: $color_2;
 	font-weight: 700;
-	line-height: 24px;
+	line-height: $fs_4;
 	text-align: center;
 	margin-top: 15px;
 }
 .counter__p {
 	text-align: center;
 	padding-bottom: 10px;
-	font-size: 14px;
+	font-size: $fs_1;
 }
 .counter__art {
 	padding: 0 20px;
@@ -255,7 +230,7 @@ header {
 	margin-bottom: 200px;
 }
 .row__h3 {
-	font-size: 22px;
+	font-size: $fs_8;
 	margin-top: 10px;
 	color: $color_2;
 	margin-bottom: 5px;
@@ -266,7 +241,7 @@ header {
 }
 .row__p {
 	display: inline-block;
-	font-size: 20px;
+	font-size: $fs_2;
 	color: $color_5;
 }
 .righti {
@@ -274,27 +249,19 @@ header {
 	position: relative;
 	right: -35px;
 	color: $color_1;
-	font-size: 25px;
-}
-.lefti {
-	text-align: left;
-	position: relative;
-	left: -35px;
-	top: -50px;
-	color: $color_1;
-	font-size: 25px;
+	font-size: $fs_4;
 }
 .display-flexspace__span {
 	display: block;
-	font-size: 14px;
-	line-height: 18px;
+	font-size: $fs_1;
+	line-height: $fs_9;
 	color: $color_7;
 	margin-bottom: 10px;
 }
 .display-flexspace__h3 {
-	font-size: 22px;
+	font-size: $fs_8;
 	color: $color_2;
-	line-height: 24px;
+	line-height: $fs_4;
 	text-align: center;
 	margin-top: 35px;
 	margin-bottom: 5px;
@@ -312,19 +279,19 @@ header {
 	width: 100%;
 	margin: 30px auto;
 	i {
-		font-size: 22px;
+		font-size: $fs_8;
 		color: $color_8;
 	}
 	h3 {
-		font-size: 24px;
-		line-height: 24px;
+		font-size: $fs_4;
+		line-height: $fs_4;
 		font-weight: 400;
 		color: $color_2;
 		margin-top: 15px;
 		margin-bottom: 5px;
 	}
 	span {
-		font-size: 14px;
+		font-size: $fs_1;
 		line-height: 16px;
 		display: block;
 		margin-bottom: 40px;
@@ -343,20 +310,4 @@ header {
 	text-transform: uppercase;
 	display: block;
 	margin: 0 auto;
-}
-.footer-style {
-	padding: 90px 0 100px;
-	background: #010101;
-}
-.footer-form {
-	max-width: 740px;
-	width: 100%;
-	display: block;
-	margin: 0 auto 110px;
-}
-footer {
-	a {
-		display: block;
-		color: $color_6;
-	}
 }

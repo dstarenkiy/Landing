@@ -1,4 +1,4 @@
-@import 'pm.scss';
+@import 'pm';
 @media only screen and (min-width: $mediafifth) {
 	.container {
 		width: 960px;
@@ -28,7 +28,7 @@
 	}
 	.display-flexspace {
 		display: flex;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 	.display-flexportfolio {
 		display: flex;
@@ -43,8 +43,8 @@
 	}
 	.row__txt {
 		color: $color_1;
-		font-size: 20px;
-		line-height: 24px;
+		font-size: $fs_2;
+		line-height: $fs_4;
 		text-align: center;
 		margin: 20px 0 70px;
 	}
@@ -60,7 +60,7 @@
 		line-height: 56px;
 		border: 2px solid #010101;
 		color: $color_2;
-		font-size: 22px;
+		font-size: $fs_8;
 		display: block;
 		margin: 0 auto 180px;
 		text-align: center;
@@ -92,6 +92,14 @@
 			}
 		}
 	}
+	.lefti {
+		text-align: left;
+		position: relative;
+		left: -35px;
+		top: -50px;
+		color: $color_1;
+		font-size: $fs_4;
+	}
 	.team__art {
 		width: 25%;
 		text-align: center;
@@ -109,7 +117,7 @@
 		position: relative;
 		top: -40px;
 		left: -35px;
-		font-size: 20px;
+		font-size: $fs_2;
 		color: $color_1;
 	}
 	.row__input {
@@ -119,7 +127,7 @@
 		margin-bottom: 25px;
 		padding: 13px;
 		color: $color_2;
-		font-size: 16px;
+		font-size: $fs_11;
 	}
 	.row__textarea {
 		width: 100%;
@@ -128,7 +136,7 @@
 		margin-bottom: 25px;
 		padding: 13px;
 		color: $color_2;
-		font-size: 16px;
+		font-size: $fs_11;
 		height: 200px;
 	}
 	.footer-form__input {
@@ -138,7 +146,7 @@
 		padding: 0 5px;
 		outline: 0;
 		height: 51px;
-		font-size: 16px;
+		font-size: $fs_11;
 	}
 	.footer-form__button {
 		width: 135px;
@@ -204,7 +212,7 @@
 		overflow: hidden;
 	}
 	.portfolio__flex {
-		flex-basis: 20px;
+		flex-basis: $fs_2;
 		flex: auto;
 	}
 	.counter__art {
@@ -214,10 +222,18 @@
 		width: 25%;
 		text-align: center;
 	}
+	.lefti {
+		text-align: left;
+		position: relative;
+		left: -35px;
+		top: -50px;
+		color: $color_1;
+		font-size: $fs_4;
+	}
 	.row__txt {
 		color: $color_1;
-		font-size: 20px;
-		line-height: 24px;
+		font-size: $fs_2;
+		line-height: $fs_4;
 		text-align: center;
 		margin: 20px 0 70px;
 	}
@@ -233,7 +249,7 @@
 		line-height: 56px;
 		border: 2px solid #010101;
 		color: $color_2;
-		font-size: 22px;
+		font-size: $fs_8;
 		display: block;
 		margin: 0 auto 180px;
 		text-align: center;
@@ -275,7 +291,7 @@
 		position: relative;
 		top: -40px;
 		left: -35px;
-		font-size: 20px;
+		font-size: $fs_2;
 		color: $color_1;
 	}
 	.row__input {
@@ -285,7 +301,7 @@
 		margin-bottom: 25px;
 		padding: 13px;
 		color: $color_2;
-		font-size: 16px;
+		font-size: $fs_11;
 	}
 	.row__textarea {
 		width: 100%;
@@ -294,7 +310,7 @@
 		margin-bottom: 25px;
 		padding: 13px;
 		color: $color_2;
-		font-size: 16px;
+		font-size: $fs_11;
 		height: 200px;
 	}
 	.footer-form__input {
@@ -304,7 +320,7 @@
 		padding: 0 5px;
 		outline: 0;
 		height: 51px;
-		font-size: 16px;
+		font-size: $fs_11;
 	}
 	.footer-form__button {
 		width: 135px;
@@ -381,8 +397,8 @@
 	}
 	.row__txt {
 		color: $color_1;
-		font-size: 20px;
-		line-height: 24px;
+		font-size: $fs_2;
+		line-height: $fs_4;
 		text-align: center;
 		margin: 20px;
 	}
@@ -398,11 +414,19 @@
 		line-height: 56px;
 		border: 2px solid #010101;
 		color: $color_2;
-		font-size: 22px;
+		font-size: $fs_8;
 		display: block;
 		margin: 0 auto 50px;
 		text-align: center;
 		font-weight: 700;
+	}
+	.lefti {
+		text-align: left;
+		position: relative;
+		left: -35px;
+		top: 0;
+		color: $color_1;
+		font-size: $fs_4;
 	}
 	.featured-grid__block {
 		width: 100%;
@@ -450,7 +474,7 @@
 		position: relative;
 		top: -0;
 		left: -35px;
-		font-size: 20px;
+		font-size: $fs_2;
 		color: $color_1;
 	}
 	.row__input {
@@ -459,7 +483,7 @@
 		margin-bottom: 25px;
 		padding: 13px;
 		color: $color_2;
-		font-size: 16px;
+		font-size: $fs_11;
 		width: 80%;
 	}
 	.row__textarea {
@@ -468,7 +492,7 @@
 		margin-bottom: 25px;
 		padding: 13px;
 		color: $color_2;
-		font-size: 16px;
+		font-size: $fs_11;
 		height: 200px;
 		width: 80%;
 	}
@@ -479,7 +503,7 @@
 		padding: 0 5px;
 		outline: 0;
 		height: 51px;
-		font-size: 16px;
+		font-size: $fs_11;
 	}
 	.footer-form__button {
 		width: 75px;
@@ -502,7 +526,7 @@
 	.row__width {
 		width: 100%;
 		text-align: center;
-		margin-top: 20px;
+		margin-top: $fs_2;
 	}
 	footer {
 		address {
